@@ -6,4 +6,5 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base:"/Web-Portfolio_Midterm-Project_DCIT26",
+  based:"./",
 });
